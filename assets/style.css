@@ -4,6 +4,7 @@ body {
 }
 
 navbar {
+   display: flex;
     flex-direction: row;
 }
 
@@ -15,5 +16,5 @@ navbar {
 
 #navList {
     color: blue;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
