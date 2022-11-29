@@ -4,26 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" type="text/css"  href="./assets/style.css"></script>
     <title>Portfolio</title>
 </head>
-<navbar>
-    <h1>My Portfolio</h1>
-        <ul>
-            <li>About Me</li>
-            <li>My Projects</li>
-            <li>Contact</li>
-        </ul>
-</navbar>
-<aboutMe>
-    <h2>About Me!</h2>
-        <p>
-            Hello, this is my about section. My name is Adam and I'm a baby beginning coder! Pay me $60k!
-        </p>
-</aboutMe>
-<myProjects>
-    <h2>My Projects!</h2>
-</myProjects>
 <body>
-    
+    <navbar>
+        <h1>My Portfolio</h1>
+            <ul id="navList">
+                <li>About Me</li>
+                <li>My Projects</li>
+                <li>Contact</li>
+            </ul>
+    </navbar>
+    <aboutMe>
+        <h2>About Me!</h2>
+            <p>
+                Hello, this is my about section. My name is Adam and I'm a baby beginning coder! Pay me $60k!
+            </p>
+    </aboutMe>
+    <myProjects>
+        <h2>My Projects!</h2>
+            <proj1>
+                <h3>Project 1!</h3>
+                <img src="#">
+            </proj1>
+            <proj2>
+                <h3>Project 2!</h3>
+                <img src="#">
+            </proj2>
+            <proj3>
+                <h3>Project 3!</h3>
+                <img src="#">
+            </proj3>
+    </myProjects>
+    <contact>
+        <h4>Please fill out contact form!</h4>
+            <form>
+                
+                <input type="text" id="fname" placeholder="Name"><br>
+                <input type="text" id="email" placeholder="Email"><br>
+                <input type="text" id="organization" placeholder="Organization">
+                <input type="submit" value="Submit">
+            </form>
+    </contact>
 </body>
 </html>

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+navbar {
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+#navList {
+    color: blue;
+    justify-content: flex-end;
+}
